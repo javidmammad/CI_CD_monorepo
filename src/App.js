@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { LeafletMaps } from "./Leaflet";
 
