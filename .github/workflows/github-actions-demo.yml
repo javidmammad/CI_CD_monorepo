@@ -2,9 +2,9 @@ name: Init
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   push:
-    branches: [main]
-  pull-requests:
-    branches: [main]
+    branches: [master]
+  pull_request:
+    branches: [master]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
